@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45edb702-7e42-4b9e-8940-0e169ad333df" name="Default Changelist" comment="" />
+    <list default="true" id="45edb702-7e42-4b9e-8940-0e169ad333df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/com/nancy/TaxCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/com/nancy/TaxCalc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nancy/BetaFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nancy/BetterFunctions.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,21 +27,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3449" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="4382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3449" />
+          <entry key="JAVA" value="4382" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="iml" value="1" />
           <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
@@ -99,10 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nancy/BetaFunctions.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nancy/BetterFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -116,6 +125,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -126,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/com/nancy/custom.java" />
         <option value="$PROJECT_DIR$/src/com/nancy/TaxCalc.java" />
         <option value="$PROJECT_DIR$/src/com/nancy/BetaFunctions.java" />
+        <option value="$PROJECT_DIR$/src/com/nancy/BetterFunctions.java" />
       </list>
     </option>
   </component>
@@ -135,6 +148,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -168,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537255714142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537262516985" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -183,9 +197,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.custom">
-    <configuration name="BmiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nancy.BmiCalc" />
+  <component name="RunManager">
+    <configuration name="BetterFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nancy.BetterFunctions" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -250,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BmiCalc" />
       <item itemvalue="Application.TaxCalc" />
       <item itemvalue="Application.arrays" />
       <item itemvalue="Application.functions" />
       <item itemvalue="Application.custom" />
+      <item itemvalue="Application.BetterFunctions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BetterFunctions" />
         <item itemvalue="Application.custom" />
         <item itemvalue="Application.TaxCalc" />
         <item itemvalue="Application.functions" />
         <item itemvalue="Application.arrays" />
-        <item itemvalue="Application.BmiCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +295,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,12 +306,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29787233" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -349,6 +364,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nancy/custom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-273">
@@ -356,10 +374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nancy/BetaFunctions.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nancy/BetterFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
         </state>
       </provider>
     </entry>
