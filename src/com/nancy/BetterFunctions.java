@@ -10,6 +10,8 @@ public class BetterFunctions {
         System.out.println(areaCircle(4)+50);
         System.out.println(Math.round(areaCircle(4)));
 
+        String a="keya";
+
         //call, invoke, use
         System.out.println(calculateAge(1993));
         int age=calculateAge(1980);
@@ -25,6 +27,8 @@ public class BetterFunctions {
 
         System.out.println(threeInt(19, 20, 21));
         System.out.println(sapyramid(15,10, 20));
+
+        System.out.println(myname("nancy chemutai"));
     }
 
     public static double areaCircle( double r){
@@ -70,5 +74,11 @@ public class BetterFunctions {
     public static double sapyramid(double length, double width, double height){
         double surfaceArea=(length*width)+(1/2*(length+width+length+width))*height;
         return surfaceArea;
+    }
+
+    public static String myname(String name){
+        String names=name.substring(0,1).toUpperCase()+name.substring(1).toLowerCase()+
+                name.substring(6,7).toUpperCase()+name.substring(7).toLowerCase();
+        return names;
     }
 }
